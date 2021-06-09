@@ -41,12 +41,14 @@ const validationResult = Planets.decode(planetsCorruptedJSON);
 // validationResult is some fancy functional programming "Either" object
 // Left is bad, Right is good
 if (isLeft(validationResult)) {
-  console.log('planetsData has an error');
+  console.log('Boo, validation reported error(s)');
   console.log(PathReporter.report(validationResult));
 
 } else {
-  console.log('planetsData passed validation');
+  console.log('Yay, validation passed!');
 
-  const planets : PureTSPlanets = validationResult.right;
+  const planets : Planets = validationResult.right;
+  // the other type is identical and could be used here too
+  //  const planets : PureTSPlanets = validationResult.right;
   console.log(JSON.stringify(planets, null, 2));
 }
