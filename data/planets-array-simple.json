@@ -1,0 +1,475 @@
+[
+  {
+    "name": "Tatooine",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/1/",
+      "http://swapi.dev/api/films/3/",
+      "http://swapi.dev/api/films/4/",
+      "http://swapi.dev/api/films/5/",
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/1/"
+  },
+  {
+    "name": "Alderaan",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/1/",
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/2/"
+  },
+  {
+    "name": "Yavin IV",
+    "climate": "temperate, tropical",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/1/"
+    ],
+    "url": "http://swapi.dev/api/planets/3/"
+  },
+  {
+    "name": "Hoth",
+    "climate": "frozen",
+    "gravity": "1.1 standard",
+    "films": [
+      "http://swapi.dev/api/films/2/"
+    ],
+    "url": "http://swapi.dev/api/planets/4/"
+  },
+  {
+    "name": "Dagobah",
+    "climate": "murky",
+    "gravity": "N/A",
+    "films": [
+      "http://swapi.dev/api/films/2/",
+      "http://swapi.dev/api/films/3/",
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/5/"
+  },
+  {
+    "name": "Bespin",
+    "climate": "temperate",
+    "gravity": "1.5 (surface), 1 standard (Cloud City)",
+    "films": [
+      "http://swapi.dev/api/films/2/"
+    ],
+    "url": "http://swapi.dev/api/planets/6/"
+  },
+  {
+    "name": "Endor",
+    "climate": "temperate",
+    "gravity": "0.85 standard",
+    "films": [
+      "http://swapi.dev/api/films/3/"
+    ],
+    "url": "http://swapi.dev/api/planets/7/"
+  },
+  {
+    "name": "Naboo",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/3/",
+      "http://swapi.dev/api/films/4/",
+      "http://swapi.dev/api/films/5/",
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/8/"
+  },
+  {
+    "name": "Coruscant",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/3/",
+      "http://swapi.dev/api/films/4/",
+      "http://swapi.dev/api/films/5/",
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/9/"
+  },
+  {
+    "name": "Kamino",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/5/"
+    ],
+    "url": "http://swapi.dev/api/planets/10/"
+  },
+  {
+    "name": "Geonosis",
+    "climate": "temperate, arid",
+    "gravity": "0.9 standard",
+    "films": [
+      "http://swapi.dev/api/films/5/"
+    ],
+    "url": "http://swapi.dev/api/planets/11/"
+  },
+  {
+    "name": "Utapau",
+    "climate": "temperate, arid, windy",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/12/"
+  },
+  {
+    "name": "Mustafar",
+    "climate": "hot",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/13/"
+  },
+  {
+    "name": "Kashyyyk",
+    "climate": "tropical",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/14/"
+  },
+  {
+    "name": "Polis Massa",
+    "climate": "artificial temperate ",
+    "gravity": "0.56 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/15/"
+  },
+  {
+    "name": "Mygeeto",
+    "climate": "frigid",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/16/"
+  },
+  {
+    "name": "Felucia",
+    "climate": "hot, humid",
+    "gravity": "0.75 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/17/"
+  },
+  {
+    "name": "Cato Neimoidia",
+    "climate": "temperate, moist",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/18/"
+  },
+  {
+    "name": "Saleucami",
+    "climate": "hot",
+    "gravity": "unknown",
+    "films": [
+      "http://swapi.dev/api/films/6/"
+    ],
+    "url": "http://swapi.dev/api/planets/19/"
+  },
+  {
+    "name": "Stewjon",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/20/"
+  },
+  {
+    "name": "Eriadu",
+    "climate": "polluted",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/21/"
+  },
+  {
+    "name": "Corellia",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/22/"
+  },
+  {
+    "name": "Rodia",
+    "climate": "hot",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/23/"
+  },
+  {
+    "name": "Nal Hutta",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/24/"
+  },
+  {
+    "name": "Dantooine",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/25/"
+  },
+  {
+    "name": "Bestine IV",
+    "climate": "temperate",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/26/"
+  },
+  {
+    "name": "Ord Mantell",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "films": [
+      "http://swapi.dev/api/films/2/"
+    ],
+    "url": "http://swapi.dev/api/planets/27/"
+  },
+  {
+    "name": "unknown",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/28/"
+  },
+  {
+    "name": "Trandosha",
+    "climate": "arid",
+    "gravity": "0.62 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/29/"
+  },
+  {
+    "name": "Socorro",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/30/"
+  },
+  {
+    "name": "Mon Cala",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/31/"
+  },
+  {
+    "name": "Chandrila",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/32/"
+  },
+  {
+    "name": "Sullust",
+    "climate": "superheated",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/33/"
+  },
+  {
+    "name": "Toydaria",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/34/"
+  },
+  {
+    "name": "Malastare",
+    "climate": "arid, temperate, tropical",
+    "gravity": "1.56",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/35/"
+  },
+  {
+    "name": "Dathomir",
+    "climate": "temperate",
+    "gravity": "0.9",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/36/"
+  },
+  {
+    "name": "Ryloth",
+    "climate": "temperate, arid, subartic",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/37/"
+  },
+  {
+    "name": "Aleen Minor",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/38/"
+  },
+  {
+    "name": "Vulpter",
+    "climate": "temperate, artic",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/39/"
+  },
+  {
+    "name": "Troiken",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/40/"
+  },
+  {
+    "name": "Tund",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/41/"
+  },
+  {
+    "name": "Haruun Kal",
+    "climate": "temperate",
+    "gravity": "0.98",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/42/"
+  },
+  {
+    "name": "Cerea",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/43/"
+  },
+  {
+    "name": "Glee Anselm",
+    "climate": "tropical, temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/44/"
+  },
+  {
+    "name": "Iridonia",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/45/"
+  },
+  {
+    "name": "Tholoth",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/46/"
+  },
+  {
+    "name": "Iktotch",
+    "climate": "arid, rocky, windy",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/47/"
+  },
+  {
+    "name": "Quermia",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/48/"
+  },
+  {
+    "name": "Dorin",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/49/"
+  },
+  {
+    "name": "Champala",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/50/"
+  },
+  {
+    "name": "Mirial",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/51/"
+  },
+  {
+    "name": "Serenno",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/52/"
+  },
+  {
+    "name": "Concord Dawn",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/53/"
+  },
+  {
+    "name": "Zolan",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/54/"
+  },
+  {
+    "name": "Ojom",
+    "climate": "frigid",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/55/"
+  },
+  {
+    "name": "Skako",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/56/"
+  },
+  {
+    "name": "Muunilinst",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/57/"
+  },
+  {
+    "name": "Shili",
+    "climate": "temperate",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/58/"
+  },
+  {
+    "name": "Kalee",
+    "climate": "arid, temperate, tropical",
+    "gravity": "1",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/59/"
+  },
+  {
+    "name": "Umbara",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "films": [],
+    "url": "http://swapi.dev/api/planets/60/"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "io-ts-play",
+  "version": "1.0.0",
+  "description": "playing with io-ts in node",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fp-ts": "^2.10.5",
+    "io-ts": "^2.2.16",
+    "lodash": "^4.17.21",
+    "typescript": "^4.3.2"
+  }
+}

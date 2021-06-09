@@ -1,0 +1,67 @@
+# Star Wars API
+
+# using jq as a simple prettifier
+curl https://swapi.dev/api/planets/ | jq .
+
+# inspect more closely
+curl https://swapi.dev/api/planets/ | jq . | less
+
+# get the array of planet results
+curl https://swapi.dev/api/planets/ | jq .results
+
+
+# but that's just one page of ten out of 60
+
+# get all the pages of planets
+# starting at the first page
+url=https://swapi.dev/api/planets/
+
+\rm -f planet-records.json
+
+while [ $url != 'null' ]
+do
+  curl "$url" > page-of-planets.json
+  # dump all the objects in results array to output
+  cat page-of-planets.json | jq .results[] >> planet-records.json
+  # get the next page from the current page's JSON
+  # -r is raw (non-quoted output)
+  # URLs in JSON are annoyingly all http://
+  url=$(perl -npe 's{http://}{https://}g' page-of-planets.json | jq -r .next)
+  echo next page is $url
+  sleep 2
+done
+
+\rm page-of-planets.json
+
+# slurp bare objects into an array (with '-s' option)
+cat planet-records.json | jq -s . > planets-array.json
+
+### now we have all the planets in a JSON array
+
+# extract all the climate values
+cat planets-array.json | jq .[].climate | less
+
+
+# filter the arid climate planets only
+cat planets-array.json | jq '.[] | select(.climate == "arid")'
+
+# just print their names
+cat planets-array.json | jq '.[] | select(.climate == "arid") | .name'
+# "Tatooine"
+# "Trandosha"
+# "Socorro"
+
+# Which planets were in film/1 (episode 4)?
+cat planets-array.json | jq '.[] | select(.films[] | endswith("films/1/")) | .name'
+
+# get the results as array of full planet objects
+cat planets-array.json | jq '[ .[] | select(.films[] | endswith("films/1/")) ]'
+
+# make a simplified array of planets with just 5 fields
+cat planets-array.json | jq '[ .[] | { name, climate, gravity, films, url } ]' > planets-array-simple.json
+
+
+
+## jq can process big data in streaming mode - I have no experience of that at present!
+
+
